@@ -1,0 +1,20 @@
+uuid: 2f266433-c65a-403e-88ad-27e1b34e4571
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_cena
+field_name: field_cena
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
